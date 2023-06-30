@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Oswald:wght@500&display=swap');
+        body{
+            background-image: linear-gradient(to right,pink,rgb(248, 142, 200));
+        }
+       main{
+         background-color: white;
+         border-radius: 10px;
+         box-shadow: 5px 5px 5px 5px  #442f1cbb ;
+         width: 600px;
+         padding: 10px;
+         margin: auto;
+       } 
+        p{
+
+            font-family: 'Agdasima', sans-serif;
+            font-size: 32px;
+            color: black;
+            text-align: justify;
+        }
+        h1,h2{
+            font-family: 'Oswald', serif
+        }
+        

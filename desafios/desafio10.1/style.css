@@ -1,0 +1,89 @@
+@font-face {
+    font-family:android;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color:lightgreen ;
+    border-radius: 20px;
+}
+header{
+    background-image: linear-gradient(to bottom, #84E1AD, darkgreen);
+}
+header > h1{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > p{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+header > span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    margin: 2px;
+    font-weight: bold;
+}
+main,footer{
+    width: 850px;
+    margin: auto;
+}
+main{
+    background-color: white;
+    padding: 1px 1px 1px 1px;
+}
+main > h2,h3{
+    font-family: android;
+    color: darkgreen;
+    text-align: left;
+    padding: 3px;
+    margin: 10px;
+}
+main > h3{
+    background-image: linear-gradient(to right, lightgreen, white);
+}
+main > p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.midia{
+    text-align: center;
+}
+.video{
+    background-color: lightgreen;
+}
+.listinha{
+    background-color: rgb(74, 245, 74);
+    border-radius: 20px;
+    margin: 10px;
+}
+.listinha > h4{
+    background-color: rgba(0, 97, 0, 0.664);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px 20px 0px 0px;
+}
+.listinha > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 1px 1px 1px 1px;
+    margin: 10px;
+}
+footer{
+    background-color: rgb(1, 49, 1);
+    margin: auto;
+    text-align: center;
+    width: 2290;
+}
+footer > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
