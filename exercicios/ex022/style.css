@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(Imagens/pattern003.png);
+}
+
+header{
+    background-image: linear-gradient(to bottom, pink, rgb(250, 175, 232));
+    height: 70px;
+    hei
+}
+ 
+header > h1{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+main{
+    width: 912px;
+    height: 912px;
+    background-color: white;
+    margin: auto;
+}
+
+main > div > h2, p{
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    text-align: justify;
+    line-height: 1,5em;
+}
+
+.quadrado{
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+    display: inline-block;
+    background-color: lightgray;
+}
+#q1{
+    background-color: skyblue;
+}
+
+#q2{
+    background-image: linear-gradient(to bottom, yellow,red);
+}
+
+#q3{
+    background-image:linear-gradient(to bottom, blue,lightgreen);
+}
